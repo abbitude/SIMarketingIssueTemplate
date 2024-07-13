@@ -1,0 +1,110 @@
+---
+name: Social Impact Marketing Request
+about: Request new initiatives to be included in the Social Impact editorial calendar
+  and be featured on various GitHub platforms
+title: ''
+labels: ''
+assignees: ''
+
+---
+
+type: markdown
+id: welcome
+attributes:
+label: “Welcome!”
+value: If you’ve made it here, that means you probably have a new, exciting social impact initiative that you’re working on - congrats! Now it’s time to get the word out. We’re here to highlight all of the important work you’re doing by helping craft narratives and coording it within the greater Social Impact Editorial Calendar. Below, you’ll find the timeline for what will happen next, as well as a guide to help collect all necessary information regarding your initiative. For more information on how much planning time each marketing channel requires, please view our [Marketing Channels Guide](https://github.com/github/social-impact/wiki/GitHub-&-MSFT-Marketing-Channels-Guide)
+- type: checkboxes
+		id: timeline_checklist
+		attributes:
+			label: "Timeline & Checklist"
+			options:
+				- label: "Owner submits issue (minimum 6 weeks before launch)"
+				- label: "SI Team reviews request in accordance with marketing calendar (reviewed 1x per week)"
+				- label: “Marketing plan shared with owner for feedback”
+				- label: “Stories are written, assets are created, and your story goes live across platforms!”
+			validations:
+				required: true
+  	- type: input
+    id: directlyresponsible_individual
+    attributes:
+      label: "DRI(s) GitHub handle(s)"
+    validations:
+      required: true
+	- type: textarea
+	  id: key_storyline
+	  attributes:
+	 	 label: "Story/Event Overview"
+			description: "An overview of the story you’d like us to tell (we love details)! Note: If this is a conference request, please provide as many details as possible - Where? Why? Budget? Attendees?"
+type: checkboxes
+		id: internally_externally
+		attributes:
+			label: "Should this be marketed internally or externally?"
+			options:
+				- label: "Internally"
+				- label: "Externally"
+			validations:
+				required: true
+	- type: checkboxes
+		id: platforms
+		attributes:
+			label: "Platforms: Where do you envision this being published?"
+			options:
+				- label: "Hub post"
+				- label: "GitHub LinkedIn"
+				- label: “GitHub X”
+				- label: “SI Website”
+				- label: “SI Insights Perspectives Post”
+				- label: “GitHub.blog”
+				- label: “Conference”
+				- label: “Other (please elaborate)”
+			validations:
+				required: true
+- type: textarea
+	  id: tentative_date
+	  attributes:
+	 	 label: "Tentative Date"
+			description: "Is this a series or should it be launched on a specific day? Ex. We would like this to be posted on the launch date of the initiative, March 8. We envision this being a 3-part series showcasing three different student stories that we collected."
+		validation:
+			required: true
+	- type: textarea
+	  id: key_audience
+	  attributes:
+	 	 label: "Key Audience & Geo"
+			description: "Is this meant for developers, social impact orgs, or some other particular sector? Ex. This is meant to inspire other universities or social impact organizations that could implement a similar initiative within the U.S. market."
+		validation:
+			required: true
+- type: checkboxes
+		id: program_areas
+		attributes:
+			label: "What program areas does the story cover?"
+			options:
+				- label: "Skilling"
+				- label: "Environmental Sustainability"
+				- label: “Accessibility”
+				- label: “Humanitarian Response”
+				- label: “Employees”
+				- label: “Developers”
+				- label: “Nonprofits”
+			validations:
+				required: true
+- type: textarea
+    id: budget
+    attributes:
+      label: "Do you have budget?"
+      description: “If you have budget for this, amazing! If not, don’t worry. Please let us know what a budget estimate would be if you know. We’ll work on this together."
+		validations: 
+			required: true	
+	- type: textarea
+    id: relevant_links
+    attributes:
+      label: "Links to any relevant Issues, docs, photos etc."
+      description: "Ex. I’m working with an organization that is using Copilot to launch a new initiative for college students to learn how to code. This will impact 30 students a year in SF, giving them an opportunity they wouldn’t otherwise have had due to barriers…"
+	  validations:
+      required: true
+- type: textarea
+    id: relevant_links
+    attributes:
+      label: "What is your goal?"
+      description: "Ex. To get Hubbers to take action sharing their developer skill set with individuals who sign up…"
+	  validations:
+      required: true
