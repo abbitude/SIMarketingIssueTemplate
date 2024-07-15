@@ -1,5 +1,5 @@
 name: "Social Impact Marketing Request"
-about: "Request new initiatives to be included in the Social Impact editorial calendar and be featured on various GitHub platforms"
+description: "Request new initiatives to be included in the Social Impact editorial calendar and be featured on various GitHub platforms"
 title: "Marketing Request"
 labels: ["TYPE: Marketing Request"]
 assignees: ["@camaleyjennings1", "@hanamarino", "@abbitude"]
@@ -98,7 +98,7 @@ description: "Ex. I’m working with an organization that is using Copilot to la
 validations:
 required: true
 - type: textarea
-id: relevant_links
+id: goal
 attributes:
 label: "What is your goal?"
 description: "Ex. To get Hubbers to take action sharing their developer skill set with individuals who sign up…"
