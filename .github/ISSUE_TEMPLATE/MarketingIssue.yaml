@@ -7,7 +7,6 @@ body:
   - type: markdown
     id: welcome
     attributes:
-      label: "Welcome!"
       value: |
         If you’ve made it here, that means you probably have a new, exciting social impact initiative that you’re working on - congrats! Now it’s time to get the word out. 
         We’re here to highlight all of the important work you’re doing by helping craft narratives and coordinating it within the greater Social Impact Editorial Calendar. 
