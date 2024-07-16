@@ -94,16 +94,16 @@ body:
     validations: 
       required: true	
   - type: textarea
+    id: goal
+    attributes:
+      label: "What is your goal?"
+      description: "What are you trying to communicate? What audience are you targeting? Ex. To get Hubbers to take action sharing their developer skill set with individuals who sign up…"
+    validations:
+      required: true
+  - type: textarea
     id: relevant_links
     attributes:
       label: "Links to any relevant Issues, docs, photos etc."
       description: "Ex. I’m working with an organization that is using Copilot to launch a new initiative for college students to learn how to code. This will impact 30 students a year in SF, giving them an opportunity they wouldn’t otherwise have had due to barriers…"
-    validations:
-      required: true
-  - type: textarea
-    id: goal
-    attributes:
-      label: "What is your goal?"
-      description: "Ex. To get Hubbers to take action sharing their developer skill set with individuals who sign up…"
     validations:
       required: true
