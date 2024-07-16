@@ -4,7 +4,7 @@ title: "Marketing Request"
 labels: ["TYPE: Marketing Request"]
 assignees: ["@camaleyjennings1", "@hanamarino", "@abbitude"]
 body:
-  - type: markdown
+- type: markdown
     id: welcome
     attributes:
       value: |
