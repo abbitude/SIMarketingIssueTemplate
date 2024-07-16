@@ -4,10 +4,10 @@ title: "Marketing Request"
 labels: ["TYPE: Marketing Request"]
 assignees: ["@camaleyjennings1", "@hanamarino", "@abbitude"]
 body:
-- type: markdown
-id: welcome
-attributes:
-value: |
+  - type: markdown
+    id: welcome
+    attributes:
+      value: |
         If you’ve made it here, that means you probably have a new, exciting social impact initiative that you’re working on - congrats! Now it’s time to get the word out. We’re here to highlight all of the important work you’re doing by helping craft narratives and coordinating it within the greater Social Impact Editorial Calendar. Below, you’ll find the timeline for what will happen next, as well as a guide to help collect all necessary information regarding your initiative. For more information on how much planning time each marketing channel requires, please view our [Marketing Channels Guide](https://github.com/github/social-impact/wiki/GitHub-&-MSFT-Marketing-Channels-Guide)
   - type: checkboxes
     id: timeline_checklist
@@ -31,6 +31,7 @@ value: |
     attributes:
       label: "Story/Event Overview"
       description: "An overview of the story you’d like us to tell (we love details)! Note: If this is a conference request, please provide as many details as possible - Where? Why? Budget? Attendees?"
+    validations: 
       required: true
   - type: checkboxes
     id: internally_externally
@@ -56,7 +57,7 @@ value: |
         - label: "Other (please elaborate)"
     validations:
       required: true
-   - type: input
+  - type: input
     id: other
     attributes:
       label: "If selected other platform, please elaborate"
@@ -95,7 +96,7 @@ value: |
       label: "Do you have budget?"
       description: "If you have budget for this, amazing! If not, don’t worry. Please let us know what a budget estimate would be if you know. We’ll work on this together."
     validations: 
-      required: true	
+      required: true
   - type: textarea
     id: goal
     attributes:
@@ -107,5 +108,4 @@ value: |
     id: relevant_links
     attributes:
       label: "Links to any relevant Issues, docs, photos etc."
-      description: 
     validations:
