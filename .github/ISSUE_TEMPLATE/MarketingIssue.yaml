@@ -9,8 +9,11 @@ body:
     attributes:
       value: |
         If you’ve made it here, that means you probably have a new, exciting social impact initiative that you’re working on - congrats! Now it’s time to get the word out. 
+        
         We’re here to highlight all of the important work you’re doing by helping craft narratives and coordinating it within the greater Social Impact Editorial Calendar. 
+        
         Below, you’ll find the timeline for what will happen next, as well as a guide to help collect all necessary information regarding your initiative. 
+        
         For more information on how much planning time each marketing channel requires, please view our [Marketing Channels Guide](https://github.com/github/social-impact/wiki/GitHub-&-MSFT-Marketing-Channels-Guide)
   - type: checkboxes
     id: timeline_checklist
