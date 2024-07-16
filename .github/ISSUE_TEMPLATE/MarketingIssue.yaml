@@ -1,8 +1,6 @@
 name: "Social Impact Marketing Initiative Request"
 description: "Request new initiatives to be included in the Social Impact editorial calendar and be featured on various GitHub platforms"
-title: "Marketing Request"
-labels: ["TYPE: Marketing Request"]
-assignees: ["@camaleyjennings1", "@hanamarino", "@abbitude"]
+
 body:
   - type: markdown
     id: welcome
