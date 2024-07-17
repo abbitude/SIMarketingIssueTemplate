@@ -64,7 +64,7 @@ body:
   - type: input
     id: other
     attributes:
-      label: "If selected "Other" platform, please elaborate"
+      label: "If selected 'Other' platform, please elaborate"
     validations:
   - type: textarea
     id: tentative_date
