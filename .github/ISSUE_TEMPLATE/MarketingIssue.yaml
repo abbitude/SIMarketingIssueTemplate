@@ -9,14 +9,21 @@ body:
     attributes:
       value: |
         If you’ve made it here, that means you probably have a new, exciting social impact initiative that you’re working on - congrats! Now it’s time to get the word out. We’re here to highlight all of the important work you’re doing by helping craft narratives and coordinating it within the greater Social Impact Editorial Calendar. 
+   - type: markdown
+    id: important_message
+    attributes:
+      value: |
       - ⏰ IMPORTANT: Issues are REQUIRED to be opened at least 4 weeks prior to desired launch. The marketing team has the right to deny requested marketing support if this timeline is not followed. 
       - For more information on how much planning time each marketing channel requires, please view our [Marketing Channels Guide](https://github.com/github/social-impact/wiki/GitHub-&-MSFT-Marketing-Channels-Guide)
-      
-      Below, you’ll find the next steps.
+   - type: markdown
+    id: timeline_steps
+    attributes:
+      value: |
+        Below, you’ll find the next steps.
       - Owner submits issue (minimum 4 weeks before launch)
       - SI Team reviews request in accordance with marketing calendar (reviewed 1x per week)
       - Marketing plan shared with owner for feedback
-      - Stories are written, assets are created, and your story goes live across platforms
+      - Stories are written, assets are created, and your story goes live across platforms" 
   - type: input
     id: directlyresponsible_individual
     attributes:
