@@ -20,6 +20,7 @@ body:
     attributes:
       value: |
         Below are the GitHub and MSFT owned distribution channels avalible to utilize. While we cannot guarantee content will be posted, we will work hard to prepare your content. 
+        
         Internal
         - Better Together
         - Fireside Chat
@@ -28,6 +29,7 @@ body:
         - GitHub TV
         - Social Impact Newsletter
         - Microsoft CELA Take 5
+       
         External
         - Branching Out LinkedIn newsletter
         - GitHub.blog
