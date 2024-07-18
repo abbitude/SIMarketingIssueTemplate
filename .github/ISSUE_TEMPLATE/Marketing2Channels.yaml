@@ -38,14 +38,6 @@ body:
         - GitHub ReadMe Project
         - Social Impact Blog
         - GitHub Twitch
-    id: timeline_steps
-    attributes:
-      value: |
-        Here are the next steps before your initiative is launched:
-        - Owner submits issue (minimum 4 weeks before launch)
-        - SI Team reviews request in accordance with marketing calendar (reviewed 1x per week)
-        - Marketing plan shared with owner for feedback
-        - Stories are written, assets are created, and your story goes live across platforms 
   - type: input
     id: directlyresponsible_individual
     attributes:
