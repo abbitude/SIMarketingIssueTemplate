@@ -1,0 +1,137 @@
+name: "Social Impact Marketing Initiative Request (With Marketing Channel)"
+description: "Request new initiatives to be included in the Social Impact editorial calendar and be featured on various GitHub platforms"
+title: "Marketing Request"
+labels: ["TYPE: Marketing Request"]
+assignees: ["@camaleyjennings1", "@hanamarino", "@abbitude"]
+body:
+  - type: markdown
+    id: welcome
+    attributes:
+      value: |
+        If you’ve made it here, that means you probably have a new, exciting social impact initiative that you’re working on - congrats! Now it’s time to get the word out. We’re here to highlight all of the important work you’re doing by helping craft narratives and coordinating it within the greater Social Impact Editorial Calendar. 
+  - type: markdown
+    id: important_message
+    attributes:
+      value: |
+        - IMPORTANT ⏰ : Issues are REQUIRED to be opened at least 4 weeks prior to desired launch. The marketing team has the right to deny requested marketing support if this timeline is not followed. 
+        - For more information on how much planning time each marketing channel requires, please view our [Marketing Channels Guide](https://github.com/github/social-impact/wiki/GitHub-&-MSFT-Marketing-Channels-Guide).
+  - type: markdown
+    id: distribution_channels
+    attributes:
+      value: |
+        Below are the GitHub and MSFT owned distribution channels avalible to utilize. While we cannot guarantee content will be posted, we will work hard to prepare your content.
+        Internal
+        - Better Together
+        - Fireside Chat
+        - GitTogether content segment
+        - GitTogether pre-show highlight
+        - GitHub TV
+        - Social Impact Newsletter
+        - Microsoft CELA Take 5
+        External
+        - Branching Out LinkedIn newsletter
+        - GitHub.blog
+        - GitHub Instagram
+        - GitHub LinkedIn
+        - GitHub X
+        - GitHub YouTube
+        - GitHub ReadMe Project
+        - Social Impact Blog
+        - GitHub Twitch
+    id: timeline_steps
+    attributes:
+      value: |
+        Here are the next steps before your initiative is launched:
+        - Owner submits issue (minimum 4 weeks before launch)
+        - SI Team reviews request in accordance with marketing calendar (reviewed 1x per week)
+        - Marketing plan shared with owner for feedback
+        - Stories are written, assets are created, and your story goes live across platforms 
+  - type: input
+    id: directlyresponsible_individual
+    attributes:
+      label: "DRI(s) GitHub handle(s)"
+    validations:
+      required: true
+  - type: textarea
+    id: key_storyline
+    attributes:
+      label: "Story/Event Overview"
+      description: "An overview of the story you’d like us to tell (we love details)! Note: If this is a conference request, please provide as many details as possible - Where? Why? Budget? Attendees?"
+    validations: 
+      required: true
+  - type: checkboxes
+    id: internally_externally
+    attributes:
+      label: "Should this be marketed internally or externally?"
+      options:
+        - label: "Internally"
+        - label: "Externally"
+    validations:
+      required: true
+  - type: checkboxes
+    id: platforms
+    attributes:
+      label: "Platforms: Where do you envision this being published?"
+      options:
+        - label: "Hub post"
+        - label: "GitHub LinkedIn"
+        - label: "GitHub X"
+        - label: "SI Website"
+        - label: "SI Insights Perspectives Post"
+        - label: "GitHub.blog"
+        - label: "Conference"
+        - label: "Other (please elaborate)"
+    validations:
+      required: true
+  - type: input
+    id: other
+    attributes:
+      label: "If selected 'Other' platform, please elaborate"
+    validations:
+  - type: textarea
+    id: tentative_date
+    attributes:
+      label: "Tentative Date"
+      description: "Is this a series or should it be launched on a specific day? Ex. We would like this to be posted on the launch date of the initiative, March 8. We envision this being a three-part series showcasing three different student stories that we collected."
+    validations:
+      required: true
+  - type: textarea
+    id: key_audience
+    attributes:
+      label: "Key Audience & Geo"
+      description: "Is this meant for developers, social impact orgs, or some other particular sector? Ex. This is meant to inspire other universities or social impact organizations that could implement a similar initiative within the U.S. market."
+    validations:
+      required: true
+  - type: checkboxes
+    id: program_areas
+    attributes:
+      label: "What program areas does the story cover?"
+      options:
+        - label: "Skilling"
+        - label: "Environmental Sustainability"
+        - label: "Accessibility"
+        - label: "Humanitarian Response"
+        - label: "Employees"
+        - label: "Developers"
+        - label: "Nonprofits"
+    validations:
+      required: true
+  - type: textarea
+    id: budget
+    attributes:
+      label: "Do you have budget?"
+      description: "If you have budget for this, amazing! If not, don’t worry. Please let us know what a budget estimate would be if you know. We’ll work on this together."
+    validations: 
+      required: true
+  - type: textarea
+    id: goal
+    attributes:
+      label: "What is your goal?"
+      description: "What are you trying to communicate? Ex. To get Hubbers to take action sharing their developer skillset with individuals who sign up for our volunteering project."
+    validations:
+      required: true
+  - type: textarea
+    id: relevant_links
+    attributes:
+      label: "Links to any relevant Issues, docs, photos etc."
+    validations:
